@@ -4,7 +4,7 @@
 
 # Social Media Skills for AI Agents
 
-17 standalone public skills for **Codex and Claude**: user voice, LinkedIn writing, research, analytics, Reel scripting and Gemini image prompts. This repository is a public toolkit, not the complete private LinkedIn AI OS, its Figma production pipeline, or the maintainer's accounts and configuration.
+18 standalone public skills for **Codex and Claude**: user voice, LinkedIn writing, research, analytics, Reel scripting and Gemini image prompts. This repository is a public toolkit, not the complete private LinkedIn AI OS, its Figma production pipeline, or the maintainer's accounts and configuration.
 
 Built by [Charlie Hills](https://charliehills.substack.com). Subscribe to the [MarTech AI newsletter](https://charliehills.substack.com) for weekly breakdowns of how this system works in practice.
 
@@ -60,6 +60,7 @@ See each skill's `SKILL.md` for trigger phrases, inputs, and dependencies.
 | [post-writer](skills/post-writer/) | Draft LinkedIn posts in your voice using the voice files. |
 | [graphic-designer](skills/graphic-designer/) | Create HTML/CSS plus an inspected PNG when rendering is available, or a Gemini image prompt. |
 | [post-scorer](skills/post-scorer/) | Review against your supplied history or authorised Apify results, with an editorial-only fallback. |
+| [instagram-content-machine](skills/instagram-content-machine/) | Plan, calendar, Reel scripts, growth system and follower-to-client funnel from seven prompts adapted by E82 Studios. Drafts only. |
 | [reels-scripting](skills/reels-scripting/) | Analyse a reference Reel via Apify + Gemini 2.5 Flash, or use supplied material. Draft and review a script in your voice. |
 | [youtube-thumbnail](skills/youtube-thumbnail/) | Turn a video title into a branded YouTube thumbnail prompt for Gemini. |
 | [pinned-comment](skills/pinned-comment/) | Meme-style pinned comments with a matching image generation prompt. |
@@ -81,7 +82,7 @@ In Codex, ask:
 
 > Use skill-installer to install voice-builder and post-writer from charlie947/social-media-skills, paths skills/voice-builder and skills/post-writer.
 
-Install any of the 17 named folders the same way. The existing installer refuses an existing destination. Continue in a fresh task/turn, confirm the skill appears in the available skills and check its loaded path before use. Installation does not run onboarding or transfer accounts.
+Install any of the 18 named folders the same way. The existing installer refuses an existing destination. Continue in a fresh task/turn, confirm the skill appears in the available skills and check its loaded path before use. Installation does not run onboarding or transfer accounts.
 
 ### Codex: project-local copy
 
